@@ -1,0 +1,495 @@
+Priority	Section	ID	Title	Forecast	Steps	Steps (Expected Result)	Type
+Critical	Главная строка	C46	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"нажимаем  на гл строке  DIAMONDS
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/diamonds корректный
+ "	"переход на страницу https://by-venori-01.spnode.net/diamonds корректный
+ "	Functional
+Critical	Главная строка	C46	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"нажимаем  на гл строке education
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/education/cutting корректный
+ "	"переход на страницу https://by-venori-01.spnode.net/education/cutting корректный
+ "	Functional
+Critical	Главная строка	C46	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"нажимаем  на гл строке FAQ
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/faq/about-us корректны
+"	"переход на страницу https://by-venori-01.spnode.net/faq/about-us корректны
+"	Functional
+Critical	Главная строка	C46	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"нажимаем  на гл строке FINE JEWELRY
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/jewelry корректный
+ "	"переход на страницу https://by-venori-01.spnode.net/jewelry корректный
+ "	Functional
+Critical	Главная строка	C46	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"нажимаем  на гл строке WEDDING BANDS
+
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/rings/wedding корректный
+ "	"переход на страницу https://by-venori-01.spnode.net/rings/wedding корректный
+ "	Functional
+Critical	Главная строка	C46	Проверка на работу ссылок и их правильный переход на главной строке	300s	"нажимаем  на гл строке ENGAGEMENT RINGS
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/rings/engagement корректный
+ "	"переход на страницу https://by-venori-01.spnode.net/rings/engagement корректный
+ "	Functional
+Critical	Главная строка	C49	Проверить расположении кнопок на разных девайсах	1200s	"переходим по ссылке https://by-venori-01.spnode.net/
+Expected Result:
+открывается гл страница"	открывается гл страница	Other
+Critical	Главная строка	C49	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем ipad mini
+Expected Result:
+все кнопки расположены на главной ленте"	все кнопки расположены на главной ленте	Functional
+Critical	Главная строка	C49	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем iphone 12 pro max
+Expected Result:
+все кнопки расположены на главной ленте"	все кнопки расположены на главной ленте	Functional
+Critical	Главная строка	C49	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем iphone SE
+Expected Result:
+все кнопки расположены на главной ленте"	все кнопки расположены на главной ленте	Functional
+Critical	Главная строка	C49	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем samsung galaxy A51/71
+Expected Result:
+все кнопки расположены на главной ленте"	все кнопки расположены на главной ленте	Functional
+Critical	Главная строка	C49	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем surface pro 7
+Expected Result:
+все кнопки расположены на главной ленте"	все кнопки расположены на главной ленте	Functional
+Critical	корзина	C90	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"в открытой вкладке находится 3 товара, нажимаем на кнопку корзины=удаление  и удаляем 2 товара
+Expected Result:
+в корзине остался 1 товар"	в корзине остался 1 товар	Functional
+Critical	корзина	C90	проверка на удаление товара	1200s	"заходим в корзину
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/cart"	открывается ссылка https://by-venori-01.spnode.net/cart	Functional
+Critical	корзина	C91	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"в корзине находится 1 товар: например 1431719, заходим в карточку товара и нажимаем купить еще 2 шт
+Expected Result:
+в корзине кол-во товара должно измениться с 1 шт на 3 шт"	в корзине кол-во товара должно измениться с 1 шт на 3 шт	Functional
+Critical	корзина	C91	проверка на добавление одного и того же товара	1200s	"заходим в корзину
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/cart"	открывается ссылка https://by-venori-01.spnode.net/cart	Functional
+Critical	Поиск	C52	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"вводим код скаю :
+
+например 4477293
+Expected Result:
+открывается поле с товаром "	открывается поле с товаром 	Functional
+Critical	Поиск	C52	Проверка на ввод валидных данных	1200s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+Critical	Поиск	C53	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"вводим  тест
+например Princess
+Expected Result:
+товар не отображается"	товар не отображается	Functional
+Critical	Поиск	C53	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"вводим  тест+ символы
+например Princess""""!
+Expected Result:
+товар не отображается"	товар не отображается	Functional
+Critical	Поиск	C53	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"вводим  тест+ символы+цифры
+например Princess""""!32
+Expected Result:
+товар не отображается"	товар не отображается	Functional
+Critical	Поиск	C53	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"вводим  тест+ цифры
+например Princess11
+Expected Result:
+товар не отображается"	товар не отображается	Functional
+Critical	Поиск	C53	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"вводим караты юв изделия: 
+например 0.23
+Expected Result:
+товар не отображается"	товар не отображается	Functional
+Critical	Поиск	C53	Проверка на вводы не валидных данных	1200s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+Critical	Поиск	C54	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	600s	"вводим пробел и нажимаем найти
+Expected Result:
+должны получить ошибку """"не корректные данные"""""	должны получить ошибку "не корректные данные"	Functional
+Critical	Поиск	C54	Проверка на ввод пробелов	600s	"нажимаем на значок лупы=поиск на гл строке 
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+Critical	Поиск	C55	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	600s	"вводим символы например : !""""@!#$%^&amp;*(()
+ и нажимаем найти
+Expected Result:
+должны получить ошибку """"не корректные данные"""""	должны получить ошибку "не корректные данные"	Functional
+Critical	Поиск	C55	Проверка на ввод символов	600s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+Critical	Поиск	C57	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"вводим данные
+Expected Result:
+данные долны отображать слева в соот с ТЗ"	данные долны отображать слева в соот с ТЗ	Functional
+Critical	Поиск	C57	Проверка на ввод текста в соответ с ТЗ (с какой сторы он должен начинаться)	300s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+Critical	сравнение товара	C88	Добавление мах кол-ва товаров в сравнение	1200s	"заходим на страницу с товаром:
+например DIAMONDS
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/diamonds"	открывается ссылка https://by-venori-01.spnode.net/diamonds	Functional
+Critical	сравнение товара	C88	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем вид брил. например Radiant
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/diamonds/catalog?page=1&amp;limit=12&amp;sortBy=id&amp;sortOrder=ASC&amp;filters%5Bprice%5D%5Bfrom%5D=0&amp;filters%5Bprice%5D%5Bto%5D=999999&amp;filters%5Bprice%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcarat%5D%5Bfrom%5D=0.1&amp;filters%5Bcarat%5D%5Bto%5D=50&amp;filters%5Bcarat%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcolor%5D%5Bfrom%5D=D&amp;filters%5Bcolor%5D%5Bto%5D=M&amp;filters%5Bcolor%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Btable%5D%5Bfrom%5D=0&amp;filters%5Btable%5D%5Bto%5D=100&amp;filters%5Btable%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bdepth%5D%5Bfrom%5D=0&amp;filters%5Bdepth%5D%5Bto%5D=100&amp;filters%5Bdepth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneWidth%5D%5Bfrom%5D=0&amp;filters%5BstoneWidth%5D%5Bto%5D=100&amp;filters%5BstoneWidth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneLength%5D%5Bfrom%5D=0&amp;filters%5BstoneLength%5D%5Bto%5D=100&amp;filters%5BstoneLength%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bshape%5D%5B%5D=Radiant"	открывается ссылка https://by-venori-01.spnode.net/diamonds/catalog?page=1&amp;limit=12&amp;sortBy=id&amp;sortOrder=ASC&amp;filters%5Bprice%5D%5Bfrom%5D=0&amp;filters%5Bprice%5D%5Bto%5D=999999&amp;filters%5Bprice%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcarat%5D%5Bfrom%5D=0.1&amp;filters%5Bcarat%5D%5Bto%5D=50&amp;filters%5Bcarat%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcolor%5D%5Bfrom%5D=D&amp;filters%5Bcolor%5D%5Bto%5D=M&amp;filters%5Bcolor%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Btable%5D%5Bfrom%5D=0&amp;filters%5Btable%5D%5Bto%5D=100&amp;filters%5Btable%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bdepth%5D%5Bfrom%5D=0&amp;filters%5Bdepth%5D%5Bto%5D=100&amp;filters%5Bdepth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneWidth%5D%5Bfrom%5D=0&amp;filters%5BstoneWidth%5D%5Bto%5D=100&amp;filters%5BstoneWidth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneLength%5D%5Bfrom%5D=0&amp;filters%5BstoneLength%5D%5Bto%5D=100&amp;filters%5BstoneLength%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bshape%5D%5B%5D=Radiant	Functional
+Critical	сравнение товара	C88	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"на открывшейся странице выбираем 50 любых товаров , в столбце Compare ставим галочки
+Expected Result:
+товар добавился в Compare"	товар добавился в Compare	Functional
+Critical	сравнение товара	C88	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"на открывшейся странице выбираем 51 любой товар , в столбце Compare ставим галочки
+Expected Result:
+51 товар не добавился в Compare"	51 товар не добавился в Compare	Functional
+High	Главная строка	C45	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	120s	"на панели кликаем на картинку """"Venori"""" в левом верхнем углу 
+Expected Result:
+переход на главную страницу"	переход на главную страницу	Functional
+High	Главная строка	C45	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	120s	"открываем любую вкладку и переходим по ссылке  (например https://by-venori-01.spnode.net/rings/engagement)
+Expected Result:
+открылась верная страница сайта"	открылась верная страница сайта	Functional
+High	Главная строка	C45	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	120s	"Переходим по ссылке https://by-venori-01.spnode.net/
+Expected Result:
+Открывается главная страница веб сайта"	Открывается главная страница веб сайта	Functional
+High	Главная строка	C48	Проверить чтобы при изменении масштаба все кнопки оставались в главной строке	180s	"изменить масштаб страницы до 500%
+Expected Result:
+все кнопки на главной ленте"	все кнопки на главной ленте	Functional
+High	Главная строка	C48	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	180s	"изменить масштаб страницы до 125%
+Expected Result:
+все кнопки на главной ленте"	все кнопки на главной ленте	Functional
+High	Главная строка	C48	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	180s	"изменить масштаб страницы до 25%
+Expected Result:
+все кнопки на главной ленте"	все кнопки на главной ленте	Functional
+High	Главная строка	C48	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	180s	"изменить масштаб страницы до 75%
+Expected Result:
+все кнопки на главной ленте"	все кнопки на главной ленте	Functional
+High	Главная строка	C50	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"наводим на DIAMONDS
+Expected Result:
+появляется окно с категорий с подкатегориями:
+1)DESIGN YOUR OWN RING
+*Start With A Diamond
+*Start With A Lab-Created Diamond
+*Start With A Setting
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP BY SHAPE
+*Round
+*Princess
+*Cushion
+*Radiant
+*Asscher
+*Emerald
+*Oval
+*Pear
+*Marquise
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)LEARN THE 4 C'S
+*Carat
+*Cut
+*Clarity
+*Color
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+"	"появляется окно с категорий с подкатегориями:
+1)DESIGN YOUR OWN RING
+*Start With A Diamond
+*Start With A Lab-Created Diamond
+*Start With A Setting
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP BY SHAPE
+*Round
+*Princess
+*Cushion
+*Radiant
+*Asscher
+*Emerald
+*Oval
+*Pear
+*Marquise
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)LEARN THE 4 C'S
+*Carat
+*Cut
+*Clarity
+*Color
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+"	Functional
+High	Главная строка	C50	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"наводим на FINE JEWELRY
+Expected Result:
+появляется окно с категорий с подкатегориями:
+1)SHOP BY TYPE
+*Rings
+*Earrings
+*Necklaces
+*Bracelets
+*Pendants
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP BY METAL
+*White Gold
+*Yellow Gold
+*Rose Gold
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)NATURAL DIAMOND JEWELRY AND
+LAB-GROWN JEWELRY
+*Earrings
+*Pendant
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+"	"появляется окно с категорий с подкатегориями:
+1)SHOP BY TYPE
+*Rings
+*Earrings
+*Necklaces
+*Bracelets
+*Pendants
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP BY METAL
+*White Gold
+*Yellow Gold
+*Rose Gold
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)NATURAL DIAMOND JEWELRY AND
+LAB-GROWN JEWELRY
+*Earrings
+*Pendant
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+"	Functional
+High	Главная строка	C50	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"наводим на WEDDING BANDS
+Expected Result:
+появляется окно с категорий с подкатегориями:
+1)SHOP WOMEN`S
+*Diamond Bands
+*Stackable Rings
+*Eternity Rings
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP MEN`S
+*Diamond Bands
+*Alternative Metal Bands
+*Сarved Bands
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)SHOP BY BAND TYPE
+*Classic Bands
+*Anniversary Bands
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+4)SHOP BY METAL
+*White Gold
+*Yellow Gold
+*Rose Gold
+*Platinum
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+
+"	"появляется окно с категорий с подкатегориями:
+1)SHOP WOMEN`S
+*Diamond Bands
+*Stackable Rings
+*Eternity Rings
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP MEN`S
+*Diamond Bands
+*Alternative Metal Bands
+*Сarved Bands
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)SHOP BY BAND TYPE
+*Classic Bands
+*Anniversary Bands
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+4)SHOP BY METAL
+*White Gold
+*Yellow Gold
+*Rose Gold
+*Platinum
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+
+"	Functional
+High	Главная строка	C50	"Проверка на открытие окна вкладок при наведении на кнопку в главной строке , и правильный переход по ссылкам в подкатегориях"	1200s	"наводим на ENGAGEMENT RINGS
+Expected Result:
+появляется окно с категорий с подкатегориями:
+1)DESIGN YOUR OWN RING
+*Start With A Diamond
+*Start With A Lab-Created Diamond
+*Start With A Setting
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP BY STYLE
+*Solitaire
+*Halo
+*Two-Stone
+*Three-Stone
+*Accented Stones
+*Bezel Set
+*Vintage
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)SHOP BY METAL
+*White Gold
+*Yellow Gold
+*Rose Gold
+*Platinum
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+"	"появляется окно с категорий с подкатегориями:
+1)DESIGN YOUR OWN RING
+*Start With A Diamond
+*Start With A Lab-Created Diamond
+*Start With A Setting
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+2)SHOP BY STYLE
+*Solitaire
+*Halo
+*Two-Stone
+*Three-Stone
+*Accented Stones
+*Bezel Set
+*Vintage
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+
+3)SHOP BY METAL
+*White Gold
+*Yellow Gold
+*Rose Gold
+*Platinum
+
+ССЫЛКА ПО КАЖДОЙ ВКЛАДКЕ ОТКРЫВАЕТСЯ ВЕРНАЯ
+"	Functional
+High	корзина	C89	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем вид брил. например Radiant
+Expected Result:
+	
+открывается ссылка https://by-venori-01.spnode.net/diamonds/catalog?page=1&amp;limit=12&amp;sortBy=id&amp;sortOrder=ASC&amp;filters%5Bprice%5D%5Bfrom%5D=0&amp;filters%5Bprice%5D%5Bto%5D=999999&amp;filters%5Bprice%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcarat%5D%5Bfrom%5D=0.1&amp;filters%5Bcarat%5D%5Bto%5D=50&amp;filters%5Bcarat%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcolor%5D%5Bfrom%5D=D&amp;filters%5Bcolor%5D%5Bto%5D=M&amp;filters%5Bcolor%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Btable%5D%5Bfrom%5D=0&amp;filters%5Btable%5D%5Bto%5D=100&amp;filters%5Btable%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bdepth%5D%5Bfrom%5D=0&amp;filters%5Bdepth%5D%5Bto%5D=100&amp;filters%5Bdepth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneWidth%5D%5Bfrom%5D=0&amp;filters%5BstoneWidth%5D%5Bto%5D=100&amp;filters%5BstoneWidth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneLength%5D%5Bfrom%5D=0&amp;filters%5BstoneLength%5D%5Bto%5D=100&amp;filters%5BstoneLength%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bshape%5D%5B%5D=Radiant"	"	
+открывается ссылка https://by-venori-01.spnode.net/diamonds/catalog?page=1&amp;limit=12&amp;sortBy=id&amp;sortOrder=ASC&amp;filters%5Bprice%5D%5Bfrom%5D=0&amp;filters%5Bprice%5D%5Bto%5D=999999&amp;filters%5Bprice%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcarat%5D%5Bfrom%5D=0.1&amp;filters%5Bcarat%5D%5Bto%5D=50&amp;filters%5Bcarat%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcolor%5D%5Bfrom%5D=D&amp;filters%5Bcolor%5D%5Bto%5D=M&amp;filters%5Bcolor%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Btable%5D%5Bfrom%5D=0&amp;filters%5Btable%5D%5Bto%5D=100&amp;filters%5Btable%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bdepth%5D%5Bfrom%5D=0&amp;filters%5Bdepth%5D%5Bto%5D=100&amp;filters%5Bdepth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneWidth%5D%5Bfrom%5D=0&amp;filters%5BstoneWidth%5D%5Bto%5D=100&amp;filters%5BstoneWidth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneLength%5D%5Bfrom%5D=0&amp;filters%5BstoneLength%5D%5Bto%5D=100&amp;filters%5BstoneLength%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bshape%5D%5B%5D=Radiant"	Functional
+High	корзина	C89	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"добавляем товар в корзину: например 3 разных товара
+Expected Result:
+три товара в корзине"	три товара в корзине	Functional
+High	корзина	C89	проверка на добавление товара	1200s	"заходим на страницу с товаром:
+например DIAMONDS
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/diamonds"	открывается ссылка https://by-venori-01.spnode.net/diamonds	Functional
+High	Поиск	C103	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"вводим 1 знак
+Expected Result:
+система выдает ошибку "	система выдает ошибку 	Functional
+High	Поиск	C103	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"вводим 2 знака
+Expected Result:
+система выдает ошибку "	система выдает ошибку 	Functional
+High	Поиск	C103	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"вводим 3 знака
+Expected Result:
+система выдает ОК"	система выдает ОК	Functional
+High	Поиск	C103	проверка на мин кол-во символов	300s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+High	Поиск	C51	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"вводим 51 знак
+Expected Result:
+система не дает вводить данные"	система не дает вводить данные	Functional
+High	Поиск	C51	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"вводим кол-во 50 знаков
+Expected Result:
+система выдает ОК"	система выдает ОК	Functional
+High	Поиск	C51	Проверка на мах кол-во вводимых символов	300s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+	
+открывается поле для ввода данных"	"	
+открывается поле для ввода данных"	Functional
+High	Поиск	C56	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	600s	"вводим ничего невводим и нажимаем найти
+Expected Result:
+	
+должны получить ошибку """"введите данные"""" или """"не корректные данные"""""	"	
+должны получить ошибку ""введите данные"" или ""не корректные данные"""	Functional
+High	Поиск	C56	Проверка на пустое поле	600s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+High	Поиск	C59	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	120s	"в правом углу окна нажимаем значок """"крестик""""
+Expected Result:
+окно должно закрыться "	окно должно закрыться 	Functional
+High	Поиск	C59	Проверка на кликабельность значка закрыть окно	120s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+High	Поиск	C60	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем в девтулз дивайз:
+
+айпад
+
+переворачиваем устройство 
+
+Expected Result:
+строка осталась шириной в соот с требованиями"	строка осталась шириной в соот с требованиями	Functional
+High	Поиск	C60	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем в девтулз дивайз:
+
+айпад
+Expected Result:
+строка осталась шириной в соот с требованиями"	строка осталась шириной в соот с требованиями	Functional
+High	Поиск	C60	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем в девтулз дивайз:
+
+айфон SE
+
+переворачиваем устройство
+Expected Result:
+строка осталась шириной в соот с требованиями"	строка осталась шириной в соот с требованиями	Functional
+High	Поиск	C60	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем в девтулз дивайз:
+
+айфон SE
+Expected Result:
+строка осталась шириной в соот с требованиями"	строка осталась шириной в соот с требованиями	Functional
+High	Поиск	C60	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем в девтулз дивайз:
+
+самсунг 
+Expected Result:
+строка осталась шириной в соот с требованиями"	строка осталась шириной в соот с требованиями	Functional
+High	Поиск	C60	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"выбираем в девтулз дивайз:
+
+самсунг
+
+переворачиваем устройство 
+Expected Result:
+трока осталась шириной в соот с требованиями"	трока осталась шириной в соот с требованиями	Functional
+High	Поиск	C60	Проверка ширины окна поиск при различных форматах страницы	1200s	"нажимаем на значок лупы=поиск на гл строке
+Expected Result:
+открывается поле для ввода данных"	открывается поле для ввода данных	Functional
+High	сравнение товара	C104	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	1200s	"ставим галочка в Hide identical parameters
+Expected Result:
+все идентичные параметры должны скрыться"	все идентичные параметры должны скрыться	Functional
+High	сравнение товара	C104	проверка на критерий сравнения	1200s	"кликаем на значок весов на гл странице
+Expected Result:
+открывается https://by-venori-01.spnode.net/compare"	открывается https://by-venori-01.spnode.net/compare	Functional
+High	сравнение товара	C87	Проверить добавление мин кол-ва товаров в сравнение	300s	"заходим на страницу с товаром:
+например DIAMONDS
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/diamonds"	открывается ссылка https://by-venori-01.spnode.net/diamonds	Functional
+High	сравнение товара	C87	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"выбираем вид брил. например Radiant
+Expected Result:
+открывается ссылка https://by-venori-01.spnode.net/diamonds/catalog?page=1&amp;limit=12&amp;sortBy=id&amp;sortOrder=ASC&amp;filters%5Bprice%5D%5Bfrom%5D=0&amp;filters%5Bprice%5D%5Bto%5D=999999&amp;filters%5Bprice%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcarat%5D%5Bfrom%5D=0.1&amp;filters%5Bcarat%5D%5Bto%5D=50&amp;filters%5Bcarat%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcolor%5D%5Bfrom%5D=D&amp;filters%5Bcolor%5D%5Bto%5D=M&amp;filters%5Bcolor%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Btable%5D%5Bfrom%5D=0&amp;filters%5Btable%5D%5Bto%5D=100&amp;filters%5Btable%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bdepth%5D%5Bfrom%5D=0&amp;filters%5Bdepth%5D%5Bto%5D=100&amp;filters%5Bdepth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneWidth%5D%5Bfrom%5D=0&amp;filters%5BstoneWidth%5D%5Bto%5D=100&amp;filters%5BstoneWidth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneLength%5D%5Bfrom%5D=0&amp;filters%5BstoneLength%5D%5Bto%5D=100&amp;filters%5BstoneLength%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bshape%5D%5B%5D=Radiant"	открывается ссылка https://by-venori-01.spnode.net/diamonds/catalog?page=1&amp;limit=12&amp;sortBy=id&amp;sortOrder=ASC&amp;filters%5Bprice%5D%5Bfrom%5D=0&amp;filters%5Bprice%5D%5Bto%5D=999999&amp;filters%5Bprice%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcarat%5D%5Bfrom%5D=0.1&amp;filters%5Bcarat%5D%5Bto%5D=50&amp;filters%5Bcarat%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bcolor%5D%5Bfrom%5D=D&amp;filters%5Bcolor%5D%5Bto%5D=M&amp;filters%5Bcolor%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Btable%5D%5Bfrom%5D=0&amp;filters%5Btable%5D%5Bto%5D=100&amp;filters%5Btable%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bdepth%5D%5Bfrom%5D=0&amp;filters%5Bdepth%5D%5Bto%5D=100&amp;filters%5Bdepth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneWidth%5D%5Bfrom%5D=0&amp;filters%5BstoneWidth%5D%5Bto%5D=100&amp;filters%5BstoneWidth%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5BstoneLength%5D%5Bfrom%5D=0&amp;filters%5BstoneLength%5D%5Bto%5D=100&amp;filters%5BstoneLength%5D%5BsetRange%5D%5BisMobxAction%5D=true&amp;filters%5Bshape%5D%5B%5D=Radiant	Functional
+High	сравнение товара	C87	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"на открывшейся странице выбираем 2 любых товара , в столбце Compare ставим галочки 
+Expected Result:
+товар добавился в Compare"	товар добавился в Compare	Functional
+High	сравнение товара	C87	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	300s	"нажимаем на гл сроке значок весов 
+Expected Result:
+переход на страницу https://by-venori-01.spnode.net/compare
+в  лежит 2 выбранных товара
+"	"переход на страницу https://by-venori-01.spnode.net/compare
+в  лежит 2 выбранных товара
+"	Functional
+Medium	Главная строка	C47	Проверить закрепленность главной строки при прокрутке сайта	180s	"переходим по ссылке https://by-venori-01.spnode.net/
+Expected Result:
+открылась главная страница сайта"	открылась главная страница сайта	Other
+Medium	Главная строка	C47	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	180s	" переходим по ссылке https://by-venori-01.spnode.net/rings/wedding
+Expected Result:
+открылась страница WEDDING BANDS"	открылась страница WEDDING BANDS	Functional
+Medium	Главная строка	C47	Проверка кликабельности картинки ""Venori"" и переход на главную страницу	180s	"прокручиваем страницу вниз 
+Expected Result:
+главная строка закреплена"	главная строка закреплена	Functional
